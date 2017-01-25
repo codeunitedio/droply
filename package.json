@@ -9,7 +9,7 @@
     "upload"
   ],
   "author": "Mirza Pasic <mirza@bosnadev.com>",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "./dist/droply.js",
   "scripts": {
     "lint": "eslint --ext .vue,.js --ignore-path .gitignore -- ./src",
