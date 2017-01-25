@@ -1,5 +1,5 @@
 <p align="center">
-![Droply logo](https://raw.githubusercontent.com/codeunitedio/droply/master/docs/img/logo.png)
+<img src="https://raw.githubusercontent.com/codeunitedio/droply/master/docs/img/logo.png">
 </p>
 
 
