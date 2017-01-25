@@ -236,7 +236,6 @@
       // Handle the dropzone events
       const vm = this
       this.dropzone.on('addedfile', function (file) {
-        console.log('added file!!')
         vm.$emit('droply-file-added', file)
       })
 

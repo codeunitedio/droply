@@ -8,7 +8,7 @@
                 <droply id="myDroply"
                         ref="droplyOne"
                         url="https://httpbin.org/post"
-                        upload-message-text="Drop file(s) to upload <br><strong>or click</strong>"
+                        upload-message-text="Drop file(s) to upload <br><strong>or click to select</strong>"
                         @droply-file-added="onFileAdded"
                         @droply-removed-file="onFileRemoved"
                         @droply-success="onSuccess">
@@ -24,7 +24,7 @@
 </template>
 
 <style>
-    @import url('../node_modules/dropzone/dist/dropzone.css');
+    @import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css');
     @import 'https://fonts.googleapis.com/css?family=Roboto';
     html, body {
         height: 100vh;
