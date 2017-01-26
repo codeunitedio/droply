@@ -1,6 +1,6 @@
 {
   "name": "droply",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A tiny Dropzone.js wrapper for Vue 2",
   "main": "./dist/droply.js",
   "scripts": {
