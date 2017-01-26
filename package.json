@@ -1,15 +1,7 @@
 {
   "name": "droply",
-  "description": "A tiny Dropzone.js wrapper for Vue 2",
-  "keywords": [
-    "utils",
-    "vuejs",
-    "vue",
-    "dropzone",
-    "upload"
-  ],
-  "author": "Mirza Pasic <mirza@bosnadev.com>",
   "version": "0.0.2",
+  "description": "A tiny Dropzone.js wrapper for Vue 2",
   "main": "./dist/droply.js",
   "scripts": {
     "lint": "eslint --ext .vue,.js --ignore-path .gitignore -- ./src",
@@ -19,6 +11,23 @@
     "build:prod": "cross-env NODE_ENV=production webpack --progress --hide-modules --config ./build/webpack.prod.conf.js",
     "build:demo": "cross-env NODE_ENV=production webpack --progress --hide-modules --config ./build/webpack.dev.conf.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codeunitedio/droply.git"
+  },
+  "keywords": [
+    "utils",
+    "vuejs",
+    "vue",
+    "dropzone",
+    "upload"
+  ],
+  "author": "Mirza Pasic <mirza@bosnadev.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codeunitedio/droply/issues"
+  },
+  "homepage": "https://github.com/codeunitedio/droply#readme",
   "dependencies": {
     "dropzone": "^4.3.0",
     "vue": "^2.1.10"
