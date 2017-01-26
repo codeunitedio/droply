@@ -16,7 +16,7 @@ Droply is a tiny Dropzone wrapper for the VueJS 2.
 
 ## Installation
 
-### NPM Based WorkFlows
+#### NPM Based WorkFlows
 
 This is a recommended way of installation. You can use either npm or yarn package manager:
 
@@ -24,7 +24,7 @@ This is a recommended way of installation. You can use either npm or yarn packag
 $ yarn add droply --dev
 ```
 
-### Browser Globals
+#### Browser Globals
 
 Just include ```vue``` and ```droply``` from the [NPM CDN](https://npmcdn.com/) and you're ready to go:
 
