@@ -78,7 +78,7 @@ Then you can register it globaly using Vue.use() or inside a components object.
 </style>
 
 <script>
-  import * as Droply from '../src/Droply.vue'
+  import Droply from 'droply'
 
   export default {
     name: 'MainApp',
