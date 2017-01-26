@@ -13,33 +13,49 @@
 
 Droply is a tiny Dropzone wrapper for the VueJS 2.
 
+
+## Installation
+
+### NPM Based WorkFlows
+
+This is a recommended way of installation. You can use either npm or yarn package manager:
+
+```bash
+$ yarn add droply --dev
+```
+
+### Browser Globals
+
+Just include ```vue``` and ```droply``` from the [NPM CDN](https://npmcdn.com/) and you're ready to go:
+
+```html
+<!-- use the latest release -->
+<script src="https://npmcdn.com/droply@latest"></script>
+
+<!-- or point to a specific release -->
+<script src="https://npmcdn.com/droply@0.0.2"></script>
+```
+
+
 ## Usage
-
-### Installation
-
-You can install Droply with npm or yarn package manager:
-
-```
-yarn add droply --dev
-```
 
 You'll also need to load the [FontAwesome](http://fontawesome.io/) icon kit:
 
-````
+```html
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-````
+```
 
 Next step is to import the module:
 
-```
+```javascript
 import Droply from 'droply'
 ```
 
-Then you can register it globaly using Vue.use() or inside a components object.
+Then you can register it globaly using Vue.component() or inside a components object.
 
 ### Example
 
-```
+```html
 <template>
     <div class="container">
         <div class="row justify-content-md-center">
