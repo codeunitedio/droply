@@ -254,6 +254,11 @@
       this.dropzone.on('sending', function (file, xhr, formData) {
         vm.$emit('droply-sending', file, xhr, formData)
       })
+
+      this.dropzone.on('uploadprogress', function (file, progress, size) {
+          vm.$emit('droply-uploadprogress', file, progress, size)
+      })
+
     }
   }
 </script>
