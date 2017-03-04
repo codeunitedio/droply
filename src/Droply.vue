@@ -1,6 +1,6 @@
 <template>
     <div>
-        <form :action="url" class="dropzone" :id="id"> </form>
+        <form :action="url" class="dropzone" :id="id"></form>
     </div>
 </template>
 
@@ -253,6 +253,10 @@
 
       this.dropzone.on('sending', function (file, xhr, formData) {
         vm.$emit('droply-sending', file, xhr, formData)
+      })
+
+      this.dropzone.on('uploadprogress', function (file, progress, size) {
+        vm.$emit('droply-uploadprogress', file, progress, size)
       })
     }
   }
